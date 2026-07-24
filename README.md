@@ -13,6 +13,7 @@
 ## Problem Statementgit add README.md
 
 ## Features 
+
 Captures the user's surroundings in real time using a camera.
 Analyzes the environment using a Vision-Language AI model.
 Detects and identifies objects, people, pathways, and obstacles.
@@ -123,6 +124,7 @@ VisionGuide-AI/
 └── LICENSE                 
 
 ## Installation
+
 1. Clone the Repository
 git clone https://github.com/mathavan108/visionguide
 cd VisionGuide-AI
@@ -205,6 +207,7 @@ USB Cable / Power Supply
 
 
 ## Security Measures
+
 Processes images locally during the prototype to protect user privacy.
 Does not permanently store captured images or personal data.
 Minimizes unnecessary data collection.
@@ -222,6 +225,7 @@ End-to-end system integration.
 The system provides real-time scene analysis and voice guidance with minimal delay. It successfully identifies common objects and obstacles, helping users navigate more safely. Performance may vary depending on lighting conditions and hardware capabilities.
 
 ## Challenges
+
 Running AI models efficiently on limited hardware.
 Maintaining real-time response speed.
 Handling poor lighting and crowded environments.
@@ -229,6 +233,7 @@ Integrating multiple modules within a short hackathon timeline.
 Ensuring accurate and meaningful voice guidance.
 
 ## Future Scope
+
 Deploy the system on Raspberry Pi or other edge devices.
 Add GPS support for outdoor navigation.
 Integrate OCR to read signboards and room numbers.
@@ -244,11 +249,58 @@ The demonstration showcases the complete workflow of the system:
 Capture the user's surroundings.
 Analyze the scene using the AI model.
 Detect important objects and hazards.
+
+## Advanced Personalization Module
+
+### Purpose
+
+The Advanced Personalization Module adds a lifelong user-centric navigation layer to the project. It is designed to adapt guidance recommendations based on individual profile settings and scene context.
+
+### Motivation
+
+The main system delivers general assistance, but people with different mobility patterns and navigation preferences benefit from personalized support. This module makes navigation instructions feel more natural, consistent, and aligned with each user's preferred direction and behavior.
+
+### Features
+
+- Persistent user profile management
+- Preference-aware direction guidance
+- Scene object recognition for adaptive recommendations
+- Rule-based environment awareness
+- History tracking for obstacles and locations
+
+### Workflow
+
+1. Load or initialize the user profile.
+2. Interpret the current scene description.
+3. Detect supported objects and environment type.
+4. Generate guidance based on user preferences and scene context.
+5. Update the profile with new obstacles and location data.
+6. Persist the updated profile for future sessions.
+
+### Folder location
+
+The module is implemented under:
+
+- `advanced_features/`
+
+### Integration with the main project
+
+The module is designed to complement the existing navigation engine. It can be integrated by feeding scene descriptions into the personalization guidance pipeline and then combining its output with the primary navigation decisions and speech system.
+
+### Future scope
+
+- Extend user profile schemas with richer preference data
+- Add feedback-driven adaptation over time
+- Integrate multi-modal signals such as voice and environment sensors
+- Improve rule-based guidance with more scene-aware behaviors
+- Support cross-session personalization analytics
+
 Generate navigation instructions.
 Convert the instructions into speech.
 Provide real-time voice guidance to the user.
 
 ## References
+
 Python Documentation
 OpenCV Documentation
 Hugging Face Transformers Documentation

@@ -1,0 +1,9 @@
+{
+  "id": "user_001",
+  "name": "Example User",
+  "preferences": {
+    "tone": "friendly",
+    "highlight_mode": "advanced",
+    "language": "en"
+  }
+}
