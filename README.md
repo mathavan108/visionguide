@@ -4,12 +4,20 @@
 
 
 ## Features
-
----
+Features
+Captures the user's surroundings in real time using a camera.
+Uses AI to understand objects, people, pathways, and obstacles.
+Provides clear voice guidance for safer navigation.
+Helps visually impaired users navigate independently with greater confidence.
+Delivers fast responses for real-time assistance.
+Supports headphones for hands-free audio guidance.
+Runs on a laptop for the prototype and can be deployed on edge devices such as Raspberry Pi in the future.
+Designed with accessibility, simplicity, and ease of use as the primary focus.
+Identifies potential hazards and provides timely navigation alerts.
+Offers a portable and cost-effective solution for assistive navigation.
 
 ## Tech Stack
 
----
 
 ## System Architecture
 
