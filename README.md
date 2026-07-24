@@ -79,3 +79,12 @@
 ---
 
 ## License
+
+## Team Details
+| Name | Role |
+|------|------|
+| Member 1 | Camera Module |
+| Member 2 | Vision Language Model |
+| Member 3 | Navigation Guidance |
+| Member 4 | Speech Module |
+| Member 5 | System Integration |
