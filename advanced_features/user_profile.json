@@ -1,0 +1,8 @@
+{
+  "preferred_direction": "right",
+  "walking_speed": "normal",
+  "frequent_locations": [],
+  "obstacle_history": {},
+  "guidance_history": [],
+  "last_updated": "CURRENT_TIMESTAMP"
+}
